@@ -1,0 +1,162 @@
+-------------------MERN STACK---------------------
+
+------------HTML-------------
+
+1.Markup Language- set of rules that will define what type of content a document should hold
+2.HTML- used to display contents in a webpage
+3.HTML Document- collecton of HTML elements
+        HTML Element- <starting tag>
+                            content
+                      <closing tag>
+        Tag- <.....> ....... </......>
+4.HTML Structure-   <html>
+                        <head>
+                        <title>.....</title>
+                        </head>
+                        <body>
+                        ...........
+                        </body>
+                    </html>  
+5.Latest version of HTML- HTML 5  
+6.Basic tag- used to display content in webpage                   
+        -Headlines- <h1>........<h6>
+        -Paragraph- <p> tag
+        -Bold- <b> tag
+        -Italics- <em> tag
+        -Highlight- <mark> tag
+        -Strike- <s> tag
+        -Superlative- <sup> tag
+        -Subscript- <sub> tag
+        -Links- <s> tag
+        -Break a line- <br> tag
+        -Ordered list- <ol> tag, <li> tag
+        -Unordered list- <ul> tag, <li> tag
+        -Description list- <dl> tag, <dt> tag, <dd> tag
+        -Image tag- <img> tag
+                   container tag:
+                        -div tag
+                        -article tag
+                        -section tag
+        -Video tag- <video> tag  
+        -Embedding- <iframe> tag
+        -Semantic tags: describes its meaning to both browser and developer
+                  -header tag
+                  -nav tag
+                  -section tag
+                  -article tag
+                  -aside tag
+                  -footer tag              
+                       
+
+
+7.Based on display value of tags in browser,we can classify tags
+
+        Block elements: uses entire width of the browser to display content in browser
+                        ex: h1-h6,<p> tag
+        Inline elements: uses only width of the content to display content in browser 
+                         ex: <a> tag,<img> tag
+
+
+                         FORMS
+            --------------------------------
+            Forms tags- input tags: text,number,date
+                        check box
+                        dropdown
+                        radio button
+                        button
+        
+
+
+                         TABLE
+            --------------------------------
+
+    Table- used to display contents in rows and columns
+        table tags- <thead>  table head
+                    <tbody>  table body
+                    <tr>     rows
+                    <th>/<td> columns
+
+                    colspan- group columns
+                    rowspan- group rows
+
+
+
+
+-----------------------------------------------------------------------
+                        CSS- Cascading Style Sheet
+-----------------------------------------------------------------------
+1.used to style HTML elements
+2.ways to apply CSS in HTML:
+               -Inline CSS- stlye attribute
+                     syntax: style="property:value;"
+               -Internal CSS- <style>
+                     syntax: 
+                           <style>
+                              selector{
+                                property: value;
+                              }
+                           </style>
+               -External CSS- use an external css file and we have to link it with HTML file
+                     syntax:
+                           selector{
+                                property: value;
+                           } 
+3.CSS Selectors- used to select HTML elements to css file
+           -Tag name
+           -id- #
+           -class- . 
+           -universal selector- *                                                               -------id>class>tag------[priority]
+           -css combinators-
+                   -Grouping selectors- using comma
+                   -decendent selector- using space
+                   -child selector- using >
+                   -sibling selector- using ~
+                   -immediate sibling selector- using +
+4.Box model- 
+       -margin
+       -padding
+       -border
+5.CSS properties-
+       -float- float elements position in left or right
+       -position- controls position of elements in HTML
+             -static
+             -fixed
+             -relative
+             -absolute
+             -sticky
+       -z index 
+       -FlexBox: used to arrange HTML elements in either row/columns
+       -Flex container: parent tag which holds elements that to be arranged as row/column.Apply flex in parent tag     
+
+   -Pseudoclass- used to define a special state of an element.
+      syntax:   selector:pseudo class{
+                      property:value;
+      }
+      -Transform
+      -Transition
+
+      -Grid: used to display elements in rows and columns. where user can fix width of row/column
+           -Grid container- display as Grid
+           -Grid-templete- column/row: used to set widthof of column/row
+           -Gap: used to set space between row or column
+           -repeat()
+      -Linear-Gradient: used to set combination of colours background
+            syntax- background-image: linear-gradient(direction,color-stop1,color-stop2,....);
+      -CSS animation: animation property,defines by- @keyframes
+          -animation libraries:
+                        -animate.style: 
+                        -AOS : animation while scroll 
+                        -locomotive scroll: companies using (professional)  
+
+      -Website hosting: 
+           -netlify
+           -Github
+
+-------------------------------------------------------------------------------------------
+                             GIT & GITHUB
+-------------------------------------------------------------------------------------------
+
+1.GIT: used to control version of a code
+2.GIT commands: 
+              -git status- use to check the status of git in a folder
+              -git init- use to create a git repository in a folder
